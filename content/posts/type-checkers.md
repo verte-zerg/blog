@@ -1,7 +1,7 @@
 +++
 title = 'The best type checker for Python'
-date = 2024-05-10T23:21:57+02:00
-draft = true
+date = 2024-05-14T23:21:57+02:00
+draft = false
 +++
 
 I've struggled choosing the best type checker for Python. Let's compare them and decide which one is the best.
