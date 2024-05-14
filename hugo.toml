@@ -1,0 +1,52 @@
+baseURL = 'https://blog.bugsiki.dev'
+languageCode = 'en-us'
+title = 'Bugsik'
+theme = 'paper_mod'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+
+[params]
+
+[params.assets]
+disableHLJS = true
+favicon = "/favicon.ico"
+
+[params.homeInfoParams]
+Title = "Welcome to my blog"
+Content = """
+Hi!
+
+I'm Misha. Here, I share my experiences as a developer and write about topics that intrigue me.
+
+I enjoy programming, particularly in Go, but I spend most of my time coding in Python.
+
+To subscribe to my blog, please use the RSS link below."""
+
+[[params.socialIcons]]
+name = "github"
+title = "View my Github"
+url = "https://github.com/verte-zerg"
+
+[[params.socialIcons]]
+name = "linkedin"
+title = "View my LinkedIn"
+url = "https://www.linkedin.com/in/mikhail-zhuk-036a061a1"
+
+[[params.socialIcons]]
+name = "rss"
+title = "Subscribe to the blog"
+url = "/index.xml"
+
+[params.editPost]
+URL = "https://github.com/verte-zerg/blog/tree/main/content"
+Text = "Suggest Changes"
+appendFilePath = true

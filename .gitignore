@@ -1,0 +1,8 @@
+# build directory
+public
+
+# hugo build files
+.hugo_build.lock
+
+# Mac OS
+.DS_Store
