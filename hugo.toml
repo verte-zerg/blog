@@ -15,6 +15,7 @@ weight = 20
 
 
 [params]
+ShowReadingTime = true
 
 [params.assets]
 disableHLJS = true
